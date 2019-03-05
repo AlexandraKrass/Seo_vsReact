@@ -1,0 +1,53 @@
+
+ {
+    "copyright": "Licensed Materials - Property of IBM 6949-66B (C) Copyright International Business Machines Corp. 2016, 2018. All Rights Reserved. US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.",
+    "CLIENT_ID_YL": "1f3a816d-105b-4a52-b253-045047f9b720",
+    "CLIENT_SECRET_YL": "hS0gS7jR7sE8uS8sD7jD6vH4oO7wE1lB1mB7dA7iO7aV5rY1wD",
+    "CLIENT_ID_YLSC": "1f3a816d-105b-4a52-b253-045047f9b720",
+    "CLIENT_SECRET_YLSC": "hS0gS7jR7sE8uS8sD7jD6vH4oO7wE1lB1mB7dA7iO7aV5rY1wD",
+    "SURVEY_SERVICE": "v1/config/type/YL-CONFIG-CLIENT?tags=surveyUi",
+    "DOMAIN_GATEWAY": "https://api.us.apiconnect.ibmcloud.com/yl-production-ylcore-prod/test/",
+    "INTERNAL_DOMAIN_GATEWAY": "https://w3-dev.api.ibm.com/learning/test/",
+    "INTERNAL_TENANT_NETWORK_CHECK": "https://w3-dev.api.ibm.com/learning/test/v1/statusdesignators",
+    "INTERNAL_CLIENT_ID_YL": "0cccbf07-2ab9-44d0-bfac-7f03f5d6913a",
+    "INTERNAL_CLIENT_SECRET_YL": "V7iA6bM2uP0rJ5xW2xR2lS7eO0oC6vJ7vP6mV6dI5lH4vA6dE7",
+    "INTERNAL_CLIENT_ID_YLSC": "38b06bc3-aee9-476a-9370-c3724d42cb7c",
+    "INTERNAL_CLIENT_SECRET_YLSC": "T5xJ8hX7oU3iI2wU0eQ8fI0yJ2dD5cK4yG7dR3rL7jK2wO8kU7",
+    "API_GATEWAY_CLUSTER": "https://api.test-dallas.yourlearning.ibm.com/",
+    "DOMAIN_YL": "https://test.yourlearning.ibm.com",
+    "ENVIRONMENT": "test",
+    "TENANT_ID": "ibm",
+    "DEFAULT_LOCALE": "en",
+    "SLIMLINE_WIDGET_URL": "/static/embed/widgets/slimline/v2/",
+    "TAGGING_WIDGET_URL": "/static/embed/widgets/tagging/",
+    "PROFILE_PHOTO_URL": "https://services.test-dallas.yourlearning.ibm.com/services/profile-images/v3/{tenantId}/",
+    "PROFILE_PHOTO_URL_INTERNAL": "https://w3-services1.w3-969.ibm.com/myw3/unified-profile-photo/v1/image/",
+    "DEFAULT_PROFILE_PHOTO": "https://test.yourlearning.ibm.com/static/img/icons/profile_photo_placeholder.jpg",
+    "CDN_HOST": "https://yourlearning.cdnedge.bluemix.net/test/ibm",
+    "SERVICES_IMAGE_STORAGE": "https://services.dallas.yourlearning.ibm.com/catalog/imagesstorage/v3/ibm/",
+    "components": {
+      "expiration": {
+        "daysToExpireAfterNotification": 30,
+        "expireOlderThanMonths": 12
+      }
+    },
+    "ui": {
+      "nps": {
+        "enable": true,
+        "config": {
+          "url": "https://d2bnxibecyz4h5.cloudfront.net/runtimejs/intercept/intercept.js",
+          "initId": "MTQ3MDExLTRhMzFjM2Y1Y2ZlOGZhNjk3YjRhY2VmNTQzYmYyMjc4NGM1MDY5NTM5ZDhkMzlkY2Y2"
+        }
+      },
+      "expertSearch": {
+         "config": {
+           "EXPERT_SEARCH_URL": "https://services.test.yourlearning.ibm.com/services/w3-proxy/v3/ibm/expertise/v2_1/experts",
+           "EXPERT_COUNTRIES_URL": "https://services.test.yourlearning.ibm.com/services/w3-proxy/v3/ibm/expertise/v2_1/countries",
+           "EXPERT_PROFILE_URL": "https://services.test.yourlearning.ibm.com/services/w3-proxy/v3/ibm/expertise/v2_1/profile",
+           "EXPERT_EVIDENCE_URL": "https://services.test.yourlearning.ibm.com/services/w3-proxy/v3/ibm/expertise/v2_1/evidence",
+           "EXPERT_ORG_URL": "https://services.test.yourlearning.ibm.com/services/w3-proxy/v3/ibm/iesmallblueapi/getorgstructure",
+           "SEARCH_EXPERTS_MAX": 10
+         }
+      }
+    }
+  }
